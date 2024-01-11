@@ -200,3 +200,13 @@ tr:hover {
 #moon {
     display: none;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    button.add-task {
+        padding: 16px 14px;
+    }
+    .container {
+        min-width: 0;
+    }
+  }
